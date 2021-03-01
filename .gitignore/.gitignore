@@ -1,0 +1,14 @@
+# Ignore all
+/*
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files to not ignore
+!/.gitignore
+!/Assembly-CSharp.csproj
+!/Assembly-CSharp-Editor.csproj
+!/WheelOfPseudoFortune.sln
+
+# Folder to not ignore
+!/Assets/
