@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C6D46981-600A-655F-4CD0-E1D13B7B3D74}</ProjectGuid>
+    <ProjectGuid>{BBEBB3BA-5F78-9BEA-C008-E35AB8452A72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,30 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Demo/00_The Grand Showcase/Bootstrappers/C86Bootstrapper.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerWorld/RollerWorld.cs" />
     <Compile Include="Assets/Renderers/Console86/C86Entry.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskUI/DiskUI.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridWorld/GridWorld.cs" />
     <Compile Include="Assets/Renderers/Console86/Console86.cs" />
     <Compile Include="Assets/Demo/00_The Grand Showcase/Bootstrappers/DiskBootstrapper.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskUI/DiskSliceUIBase.cs" />
     <Compile Include="Assets/Scripts/Exceptions/WrongParameterCountException.cs" />
     <Compile Include="Assets/Scripts/Exceptions/SameWheelException (copy).cs" />
     <Compile Include="Assets/Scripts/Exceptions/MissingUnitContainerException.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerUI/RollerUI.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridUI/GridCellUI.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskPeg.cs" />
     <Compile Include="Assets/Scripts/Custom Attributes/Attributes/ToggledObjectAttribute.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridCellBase.cs" />
     <Compile Include="Assets/Scripts/Renderers/Unit Content Dictionary/ContentType.cs" />
     <Compile Include="Assets/Scripts/Renderers/WheelRenderer.cs" />
+    <Compile Include="Assets/Demo/01_Basics_NoGUI/NoGUI_Basics_Bootstrapper.cs" />
     <Compile Include="Assets/Renderers/Console86/C86HeaderValue.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskWorld/DiskSliceWorldGenerated.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridWorld/GridCellWorld.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerCardBase.cs" />
     <Compile Include="Assets/Scripts/Renderers/Unit Content Dictionary/UnitGameObjectServer.cs" />
     <Compile Include="Assets/Scripts/Wheel/ResultIterator.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridBase.cs" />
+    <Compile Include="Assets/Demo/01_Basics_NoGUI/NoGUI_AStatisticalStudy_Bootstrapper.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskWorld/DiskWorld.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskWorld/WorldWheelPlaceholder.cs" />
     <Compile Include="Assets/Scripts/Renderers/IWheelRenderer.cs" />
@@ -94,14 +88,11 @@
     <Compile Include="Assets/Scripts/Exceptions/MaxDepthReachedException.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskBase.cs" />
     <Compile Include="Assets/Scripts/Wheel/WheelBase.cs" />
-    <Compile Include="Assets/Renderers/Grid/GridUI/GridUI.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerUI/RollerCardUI.cs" />
     <Compile Include="Assets/Demo/Scripts/DemoView.cs" />
     <Compile Include="Assets/Scripts/Renderers/UnitRenderer.cs" />
     <Compile Include="Assets/Demo/04_UnitStyling/StylingBootstrapper.cs" />
     <Compile Include="Assets/Scripts/Renderers/Unit Content Dictionary/UnitContentServer.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskUI/DiskSliceUIFixedImage.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerBase.cs" />
     <Compile Include="Assets/Renderers/Disk/DiskSliceBase.cs" />
     <Compile Include="Assets/Scripts/Custom Attributes/Attributes/ToggledFloatAttribute.cs" />
     <Compile Include="Assets/Scripts/Custom Attributes/Attributes/AttributeControlTypeEnum.cs" />
@@ -111,17 +102,13 @@
     <Compile Include="Assets/Scripts/Wheel/Wheel.cs" />
     <Compile Include="Assets/Demo/Scripts/DemoBase.cs" />
     <Compile Include="Assets/Scripts/Custom Attributes/Attributes/IToggledAttribute.cs" />
-    <Compile Include="Assets/Renderers/Roller/RollerWorld/RollerCardWorld.cs" />
-    <Compile Include="Assets/Demo/01_Basics_NoGUI/NoGUI_Basics_Bootstrapper.cs" />
-    <Compile Include="Assets/Demo/01_Basics_NoGUI/NoGUI_AStatisticalStudy_Bootstrapper.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets/Shaders/GridCell.shader" />
      <None Include="Assets/Renderers/Resources/Typography/DSEG14/DSEG-LICENSE.txt" />
      <None Include="Assets/Renderers/Disk/Shading/sliceSolidUI.shader" />
      <None Include="Assets/Renderers/Resources/Typography/Orbitron/OFL.txt" />
      <None Include="Assets/Renderers/Resources/Typography/Miriam_Libre/OFL.txt" />
-     <None Include="Assets/Shaders/3DText.shader" />
+     <None Include="Assets/Renderers/Resources/Typography/Shaders/3DText.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.1.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

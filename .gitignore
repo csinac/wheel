@@ -6,9 +6,11 @@
 
 # Files to not ignore
 !/.gitignore
+!/.README.md
 !/Assembly-CSharp.csproj
 !/Assembly-CSharp-Editor.csproj
 !/WheelOfPseudoFortune.sln
 
 # Folder to not ignore
 !/Assets/
+!/ReadmeImg/
